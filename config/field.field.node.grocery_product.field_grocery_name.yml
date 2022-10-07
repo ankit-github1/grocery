@@ -1,0 +1,19 @@
+uuid: 0c26e853-a29a-4bad-95c6-259b0c55f617
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_grocery_name
+    - node.type.grocery_product
+id: node.grocery_product.field_grocery_name
+field_name: field_grocery_name
+entity_type: node
+bundle: grocery_product
+label: 'Grocery Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

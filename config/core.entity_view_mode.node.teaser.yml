@@ -1,0 +1,12 @@
+uuid: 0e5fd257-50a1-40ba-8476-4bc4fbdde9ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Mz9qWr1kUYK0mjRAGDsr5XS6PvtZ24en_7ndt-pyWe4
+id: node.teaser
+label: Teaser
+targetEntityType: node
+cache: true

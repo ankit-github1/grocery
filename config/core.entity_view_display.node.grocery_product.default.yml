@@ -1,0 +1,76 @@
+uuid: c3758c17-a635-46eb-95d2-fd657d69d06e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.grocery_product.field_description
+    - field.field.node.grocery_product.field_gr
+    - field.field.node.grocery_product.field_grocery_image
+    - field.field.node.grocery_product.field_grocery_name
+    - field.field.node.grocery_product.field_product_id
+    - field.field.node.grocery_product.field_product_price
+    - node.type.grocery_product
+  module:
+    - image
+    - user
+id: node.grocery_product.default
+targetEntityType: node
+bundle: grocery_product
+mode: default
+content:
+  field_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_gr:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_grocery_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_grocery_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_product_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_product_price:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

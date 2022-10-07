@@ -1,0 +1,19 @@
+uuid: 6c255559-2876-448f-b4e5-36698f3598d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_price
+    - node.type.grocery_product
+id: node.grocery_product.field_product_price
+field_name: field_product_price
+entity_type: node
+bundle: grocery_product
+label: 'Product Price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

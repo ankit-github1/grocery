@@ -1,0 +1,32 @@
+uuid: 9c72ca4a-afa8-4c4a-80e1-dc8f42689330
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.grocery_product.field_description
+    - field.field.node.grocery_product.field_gr
+    - field.field.node.grocery_product.field_grocery_image
+    - field.field.node.grocery_product.field_grocery_name
+    - field.field.node.grocery_product.field_product_id
+    - field.field.node.grocery_product.field_product_price
+    - node.type.grocery_product
+  module:
+    - user
+id: node.grocery_product.teaser
+targetEntityType: node
+bundle: grocery_product
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_description: true
+  field_gr: true
+  field_grocery_image: true
+  field_grocery_name: true
+  field_product_id: true
+  field_product_price: true
